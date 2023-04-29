@@ -1,0 +1,481 @@
+body,html {
+  width: 1000px;
+  height:1000px;
+  right: 400px;
+  background-image: url(https://wallpaperaccess.com/full/5049593.jpg);
+  }
+.embroidery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  width: 1000px;
+}
+
+
+.circle{
+  background-color: rgb(230, 211, 211);
+  width: 750px;
+  height: 750px;
+  top: 600px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 2px 2px 10px 10px rgba(201, 128, 128, 0.5);
+
+  left: 140px;
+}
+.hardanger-circle {
+  position: relative;
+  width: 670px;
+  height: 670px;
+  border-radius: 50%;
+  bottom:130px;
+  right:-170px;
+  background-image: url("https://magichourneedlecrafts.com/wp-content/uploads/2018/07/Aida-14-ct-White-1.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid rgb(194, 138, 124);
+  box-shadow: 2px 3px 10px 2px #000000;
+ 
+}
+
+.stitched-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  
+}
+
+.button {
+  position: relative;
+  margin: 15px;
+  width: 40px;
+  height: 60px;
+}
+
+
+.button:after,
+.button > span {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left:30px;
+  width: 26px;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(0,0,0,.5), transparent, transparent, rgba(0,0,0,.5)),
+              linear-gradient(0deg, rgba(0,0,0,.1), transparent 50%, hsla(0,0%,100%,0) 50%, hsla(0,0%,100%,.1) 80%),
+              hsl(325, 83%, 46%);
+  background-size: 100% 3px;
+}
+
+.button:after {
+  transform: rotate(45deg);
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+
+.button > span {
+  transform: rotate(-45deg);
+  box-shadow: -1px 1px 5px black;
+}
+
+
+
+.stitch.B .letter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+ 
+}
+
+div.stitch.B .letter:nth-child(1) {
+  top:10px;
+ left:30px;
+}
+.stitch.B .letter:nth-child(2) {
+  top:33px;
+  left:30px;
+
+}
+.stitch.B .letter:nth-child(3) {
+  top:55px;
+  left: 30px;
+ 
+ }
+ .stitch.B .letter:nth-child(4) {
+  top:75px;
+   left: 30px;
+ }
+ .stitch.B .letter:nth-child(5) {
+  top:95px;
+  left: 30px;
+
+ }
+ .stitch.B .letter:nth-child(6) {
+  top:10px;
+left: 50px;
+ }
+ .stitch.B .letter:nth-child(7) {
+  top:15px;
+ left:70px;
+  
+}
+.stitch.B .letter:nth-child(8) {
+  top:30px;
+  left: 80px;
+
+}
+.stitch.B .letter:nth-child(9) {
+  top:45px;
+  left: 70px;
+ 
+ }
+ .stitch.B .letter:nth-child(10) {
+  top:50px;
+   left: 50px;
+ }
+ .stitch.B .letter:nth-child(11) {
+  top:65px;
+  left: 70px;
+
+ }
+ .stitch.B .letter:nth-child(12) {
+  top:80px;
+left: 80px;
+ }
+ .stitch.B .letter:nth-child(13) {
+  top:90px;
+  left: 70px;
+
+ }
+ .stitch.B .letter:nth-child(14) {
+  top:95px;
+left: 50px;
+ }
+
+ .stitch.E1 .letter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+}
+ div.stitch.E1 .letter:nth-child(1) {
+  top:10px;
+ left:120px;
+  
+}
+.stitch.E1 .letter:nth-child(2) {
+  top:30px;
+  left:120px;
+
+}
+.stitch.E1 .letter:nth-child(3) {
+  top:50px;
+  left: 120px;
+ 
+ }
+ .stitch.E1 .letter:nth-child(4) {
+  top:70px;
+   left: 120px;
+ }
+ .stitch.E1 .letter:nth-child(5) {
+  top:90px;
+  left: 120px;
+
+ }
+ .stitch.E1 .letter:nth-child(6) {
+  top:10px;
+left: 140px;
+ }
+ .stitch.E1 .letter:nth-child(7) {
+  top:10px;
+ left:160px;
+  
+}
+.stitch.E1 .letter:nth-child(8) {
+  top:50px;
+  left: 140px;
+
+}
+.stitch.E1 .letter:nth-child(9) {
+  top:50px;
+  left: 160px;
+ 
+ }
+ .stitch.E1 .letter:nth-child(10){
+  top:90px;
+  left:140px;
+ }
+ .stitch.E1 .letter:nth-child(11){
+  top:90px;
+  left:160px;
+ }
+
+
+.stitch.L .letter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+
+}
+div.stitch.L .letter:nth-child(1) {
+  top:10px;
+ left:200px;
+  
+}
+.stitch.L .letter:nth-child(2) {
+  top:30px;
+  left:200px;
+
+}
+.stitch.L .letter:nth-child(3) {
+  top:50px;
+  left: 200px;
+ 
+ }
+ .stitch.L .letter:nth-child(4) {
+  top:70px;
+   left: 200px;
+ }
+ .stitch.L .letter:nth-child(5) {
+  top:90px;
+  left: 200px;
+ }
+ .stitch.L .letter:nth-child(6) {
+  top:90px;
+   left: 220px;
+ }
+ .stitch.L .letter:nth-child(7) {
+  top:90px;
+  left: 240px;
+ }
+ .stitch.I .letter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+}
+div.stitch.I .letter:nth-child(1) {
+  top:10px;
+  left:280px;
+
+}
+.stitch.I .letter:nth-child(2) {
+  top:30px;
+  left: 280px;
+ 
+ }
+ .stitch.I .letter:nth-child(3) {
+  top:50px;
+   left: 280px;
+ }
+ .stitch.I .letter:nth-child(4) {
+  top:70px;
+  left: 280px;
+ }
+ .stitch.I .letter:nth-child(5) {
+  top:90px;
+   left: 280px;
+ }
+
+ .stitch.E2 .letter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+}
+ div.stitch.E2 .letter:nth-child(1) {
+  top:10px;
+ left:320px;
+  
+}
+.stitch.E2 .letter:nth-child(2) {
+  top:30px;
+  left:320px;
+
+}
+.stitch.E2 .letter:nth-child(3) {
+  top:50px;
+  left: 320px;
+ 
+ }
+ .stitch.E2 .letter:nth-child(4) {
+  top:70px;
+   left: 320px;
+ }
+ .stitch.E2 .letter:nth-child(5) {
+  top:90px;
+  left: 320px;
+
+ }
+ .stitch.E2 .letter:nth-child(6) {
+  top:10px;
+left: 340px;
+ }
+ .stitch.E2 .letter:nth-child(7) {
+  top:10px;
+ left:360px;
+  
+}
+.stitch.E2 .letter:nth-child(8) {
+  top:50px;
+  left: 340px;
+
+}
+.stitch.E2 .letter:nth-child(9) {
+  top:50px;
+  left: 360px;
+ 
+ }
+ .stitch.E2 .letter:nth-child(10){
+  top:90px;
+  left:340PX;
+ }
+ .stitch.E2 .letter:nth-child(11){
+  top:90px;
+  left:360PX;
+ }
+ .stitch.V .letter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+}
+div.stitch.V .letter:nth-child(1) {
+  top:10px;
+ left:400px;
+  
+}
+.stitch.V .letter:nth-child(2) {
+  top:30px;
+  left:400px;
+
+}
+.stitch.V .letter:nth-child(3) {
+  top:50px;
+  left: 400px;
+ 
+ }
+ .stitch.V .letter:nth-child(4) {
+  top:70px;
+   left: 400px;
+ }
+ .stitch.V .letter:nth-child(5) {
+  top:90px;
+  left: 420px;
+
+ }
+ .stitch.V .letter:nth-child(6) {
+  top:10px;
+left: 440px;
+ }
+ .stitch.V .letter:nth-child(7) {
+  top:30px;
+ left:440px;
+  
+}
+.stitch.V .letter:nth-child(8) {
+  top:50px;
+  left: 440px;
+
+}
+.stitch.V .letter:nth-child(9) {
+  top:70px;
+  left: 440px;
+ }
+
+ .stitch.E3 .letter {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px;
+}
+ div.stitch.E3 .letter:nth-child(1) {
+  top:10px;
+ left:480px;
+  
+}
+.stitch.E3 .letter:nth-child(2) {
+  top:30px;
+  left:480px;
+
+}
+.stitch.E3 .letter:nth-child(3) {
+  top:50px;
+  left: 480px;
+ 
+ }
+ .stitch.E3 .letter:nth-child(4) {
+  top:70px;
+   left: 480px;
+ }
+ .stitch.E3 .letter:nth-child(5) {
+  top:90px;
+  left: 480px;
+
+ }
+ .stitch.E3 .letter:nth-child(6) {
+  top:10px;
+left: 500px;
+ }
+ .stitch.E3 .letter:nth-child(7) {
+  top:10px;
+ left:520px;
+  
+}
+.stitch.E3 .letter:nth-child(8) {
+  top:50px;
+  left: 500px;
+
+}
+.stitch.E3 .letter:nth-child(9) {
+  top:50px;
+  left: 520px;
+ 
+ }
+ .stitch.E3 .letter:nth-child(10){
+  top:90px;
+  left:500PX;
+ }
+ .stitch.E3 .letter:nth-child(11){
+  top:90px;
+  left:520PX;
+ }
+ .text {
+  position: absolute;
+  bottom: 250px;
+  font-size: 20px;
+  left: 290px;
+ color:rgb(223, 26, 206);
+ font-weight: bold;
+font-family: Bradley Hand ITC;
+}
